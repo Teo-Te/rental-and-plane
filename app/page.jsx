@@ -9,8 +9,8 @@ export default function Home() {
         <div className=" max-w-xl">
           <h1 className="mb-5 text-5xl font-bold">Miresevini</h1>
           <p className="mb-5">Ketu ndoshta te shkurhet dicka ne lidhje me shrebimet apo faqen sipas deshires</p>
-          <div className="flex flex-col sm:flex-row w-full pt-4">
-            <div className="card w-96 glass">
+          <div className="flex flex-col items-center sm:flex-row sm:w-full pt-4">
+            <div className="card w-72 sm:w-96 glass">
               <figure><img src={`/flight.jpg`} alt="img"/></figure>
               <div className="card-body">
                 <h2 className="card-title justify-center">Rezervo nje fluturim</h2>
@@ -20,7 +20,7 @@ export default function Home() {
               </div>
             </div>
             <div className="divider divider-vertical sm:divider-horizontal">&</div>
-            <div className="card w-96 glass">
+            <div className="card w-72 sm:w-96 glass">
               <figure><img src={`/rental.jpeg`} alt="img"/></figure>
               <div className="card-body">
                 <h2 className="card-title justify-center">Makina me Qera</h2>
