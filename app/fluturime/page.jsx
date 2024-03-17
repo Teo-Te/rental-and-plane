@@ -53,13 +53,13 @@ export default function Fluturime() {
         <div className="flex flex-col w-full bg-base-200">
             <div className="divider divider-neutral"></div>
         </div>
-        <div className="flex flex-col join justify-center bg-base-200 pt-2 pb-2">
+        <div className="flex flex-col join justify-center w-full bg-base-200 pt-2 pb-2">
             <div className="flex w-full justify-center pb-2">
                 <button onClick={() => setIsReturn(false)} className="btn btn-secondary">Vajtje</button>
                     <div className="divider divider-horizontal"></div>
                 <button onClick={() => setIsReturn(true)} className="btn btn-secondary">Vajtje-Ardhje</button>
             </div>
-            <div className="flex join p-2 justify-center">
+            <div className="flex join w-full p-2 justify-center">
                 <div>
                     <div className="flex flex-col">
                         <input className="input input-bordered join-item" placeholder="Nisja"/>
@@ -67,7 +67,7 @@ export default function Fluturime() {
                 </div>
                 <div>
                     <div>
-                    <input className="input input-bordered join-item" placeholder="Destinacioni"/>
+                        <input className="input input-bordered join-item" placeholder="Destinacioni"/>
                     </div>
                 </div>
             </div>
@@ -81,7 +81,7 @@ export default function Fluturime() {
                 </div>
                 }
             </div>
-            <div className="flex flex-row w-full justify-between sm:justify-center items-center px-5 pt-4">
+            <div className="flex flex-row w-full justify-center items-center px-5 pt-4">
                 <div className="sm: pr-12">
                     <div>
                         <div className="flex flex-col">
