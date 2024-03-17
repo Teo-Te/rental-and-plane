@@ -81,7 +81,7 @@ export default function Fluturime() {
                 </div>
                 }
             </div>
-            <div className="flex flex-row w-full justify-center items-center sm:px-5 pt-4">
+            <div className="flex flex-row w-full justify-center items-center px-2 sm:px-5 pt-4">
                 <div className="sm:pr-12">
                     <div>
                         <div className="flex flex-col">
