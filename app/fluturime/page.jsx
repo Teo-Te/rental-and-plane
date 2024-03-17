@@ -71,13 +71,13 @@ export default function Fluturime() {
                     </div>
                 </div>
             </div>
-            <div className="flex join p-2 justify-center">
-                <div className="flex flex-col w-full">
-                    <Dp/>
+            <div className="flex join p-2 w-full justify-center">
+                <div className="flex flex-col">
+                    <Dp className="join-item w-full"/>
                 </div>
                 {isReturn &&
-                <div className="w-full">
-                    <Dp2/>
+                <div>
+                    <Dp2 className="join-item w-full" />
                 </div>
                 }
             </div>
