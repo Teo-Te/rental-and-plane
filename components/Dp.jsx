@@ -24,7 +24,7 @@ const Dp = () => {
             placeholder={"Data e nisjes"}
             value={value} 
             onChange={handleValueChange} 
-            inputClassName={"input input-bordered join-item"}
+            inputClassName={"input input-bordered join-item w-full"}
             containerClassName={"relative z-50"}
             />
         </div>
